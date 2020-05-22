@@ -3,4 +3,15 @@ $forest: #228B22;
 .navbar {
   background-color: $forest;
   overflow: hidden;
+  /* Style the links inside the navigation bar */
+  a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
 }
