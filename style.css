@@ -17,5 +17,8 @@
   background-color: #134e13;
   color: white;
 }
+.navbar .icon {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

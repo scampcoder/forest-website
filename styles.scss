@@ -15,8 +15,11 @@ $forest: #228B22;
   }
   /*Change color on hover*/
   a:hover {
-  background-color: #134e13;
-  color: white;
-}
+    background-color: #134e13;
+    color: white;
+  }
+  .icon {
+    display: none;
+  }
 
 }
