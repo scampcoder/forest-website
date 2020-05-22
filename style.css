@@ -1,15 +1,21 @@
 .navbar {
   background-color: #228B22;
   overflow: hidden;
+  /* Style the links inside the navigation bar */
+  /*Change color on hover*/
 }
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #134e13;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
