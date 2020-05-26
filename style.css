@@ -4,14 +4,8 @@
   /* Style the links inside the navigation bar */
   /*Change color on hover*/
 }
-.navbar ul {
-  float: right;
-  list-style-type: none;
-}
-.navbar li {
-  float: left;
-}
 .navbar a {
+  float: right;
   display: block;
   color: black;
   text-align: center;
@@ -51,9 +45,13 @@
   }
 
   .navbar.responsive a {
+    width: 100%;
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
+  }
+  .navbar.responsive a.icon {
+    display: none;
   }
 }
 

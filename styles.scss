@@ -4,17 +4,9 @@ $forest: #228B22;
   background-color: $forest;
   overflow: hidden;
 
-  ul {
-    float: right;
-    list-style-type: none;
-  }
-
-  li{
-    float: left;
-  }
-
   /* Style the links inside the navigation bar */
   a {
+    float: right;
     display: block;
     color: black;
     text-align: center;
@@ -50,9 +42,15 @@ $forest: #228B22;
     right: 0;
     top: 0;
   }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  .navbar.responsive {
+    a {
+      width: 100%;
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    a.icon {
+      display: none;
+    }
   }
 }
