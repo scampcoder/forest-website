@@ -17,8 +17,16 @@
   background-color: #134e13;
   color: white;
 }
+.navbar a.active {
+  background-color: #134e13;
+  color: white;
+}
 .navbar .icon {
   display: none;
+}
+
+body {
+  background-color: black;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */

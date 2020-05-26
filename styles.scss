@@ -19,10 +19,18 @@ $forest: #228B22;
     background-color: #134e13;
     color: white;
   }
+  a.active {
+    background-color: #134e13;
+    color: white;
+  }
   .icon {
     display: none;
   }
 
+}
+
+body {
+  background-color: black;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
