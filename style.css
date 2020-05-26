@@ -5,7 +5,7 @@
   /*Change color on hover*/
 }
 .navbar a {
-  float: right;
+  float: left;
   display: block;
   color: black;
   text-align: center;
