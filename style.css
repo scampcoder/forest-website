@@ -31,21 +31,18 @@ body {
   background-color: black;
 }
 
-h3 {
-  color: white;
-}
-
-.caption {
-  color: white;
-}
-
 .pics {
   width: 100%;
   height: 500px;
 }
 
-.row {
+.collage {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tbl-header {
+  background-color: #228B22;
 }
 
 #main-tree {

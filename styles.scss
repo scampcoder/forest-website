@@ -35,16 +35,19 @@ body {
   background-color: black;
 }
 
-
-
-#main-tree {
-  width: 85%;
-  height: auto;
-  /*center photo*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.pics {
+  width: 100%;
+  height: 500px;
 }
+
+.collage {
+  margin-bottom: 50px;
+}
+
+.tbl-header {
+  background-color: $forest;
+}
+
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
