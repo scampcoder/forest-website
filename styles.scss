@@ -42,10 +42,24 @@ body {
 
 .collage {
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.tbl-header {
-  background-color: $forest;
+.tbl {
+  .header {
+    background-color: $forest;
+    color: black;
+    text-align: center;
+  }
+  tr {
+  background-color: #515c51;
+  color: white;
+  }
+  td, th {
+  border: 1px solid black;
+  padding: 8px;
+  }
+  margin-bottom: 50px;
 }
 
 

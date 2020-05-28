@@ -37,21 +37,25 @@ body {
 }
 
 .collage {
+  margin-bottom: 50px;
   margin-top: 50px;
+}
+
+.tbl {
   margin-bottom: 50px;
 }
-
-.tbl-header {
+.tbl .header {
   background-color: #228B22;
+  color: black;
+  text-align: center;
 }
-
-#main-tree {
-  width: 85%;
-  height: auto;
-  /*center photo*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.tbl tr {
+  background-color: #515c51;
+  color: white;
+}
+.tbl td, .tbl th {
+  border: 1px solid black;
+  padding: 8px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
