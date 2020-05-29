@@ -77,14 +77,10 @@ body {
   }
 
   #myCarousel img {
-    width: auto;
+    width: 90vw;
     height: auto;
   }
 
-  .tbl {
-    margin-left: 30vw;
-    margin-right: 30vw;
-  }
   .tbl .name::after {
     content: " (T→B)";
   }
