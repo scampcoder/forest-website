@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .mynavbar {
   background-color: #228B22;
   overflow: hidden;
@@ -44,6 +45,9 @@ body {
   background-color: #228B22;
   color: black;
   text-align: center;
+}
+.tbl .name::after {
+  content: " (L→R)";
 }
 .tbl tr {
   background-color: #515c51;

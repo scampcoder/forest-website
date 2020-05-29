@@ -50,6 +50,9 @@ body {
     color: black;
     text-align: center;
   }
+  .name::after {
+    content: " (L→R)"
+  }
   tr {
   background-color: #515c51;
   color: white;
