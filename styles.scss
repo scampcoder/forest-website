@@ -22,8 +22,7 @@ $forest: #228B22;
     color: white;
   }
   a.myactive {
-    background-color: #134e13;
-    color: white;
+    @extend a, :hover;
   }
   .icon {
     display: none;

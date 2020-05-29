@@ -4,7 +4,7 @@
   /* Style the links inside the navigation bar */
   /*Change color on hover*/
 }
-.mynavbar a {
+.mynavbar a, .mynavbar a.myactive {
   float: left;
   display: block;
   color: black;
@@ -15,11 +15,7 @@
   font-weight: bold;
   font-family: "Amatic SC", cursive;
 }
-.mynavbar a:hover {
-  background-color: #134e13;
-  color: white;
-}
-.mynavbar a.myactive {
+.mynavbar a:hover, .mynavbar a.myactive {
   background-color: #134e13;
   color: white;
 }
@@ -67,7 +63,7 @@ body {
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .mynavbar a {
+  .mynavbar a, .mynavbar a.myactive {
     display: none;
   }
 
