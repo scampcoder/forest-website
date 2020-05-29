@@ -58,6 +58,13 @@ body {
   padding: 8px;
 }
 
+.carousel-inner img {
+  width: auto;
+  height: 80vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .mynavbar a {
